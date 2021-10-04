@@ -1,0 +1,322 @@
+/*body*/
+body{
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*first*/
+.first{
+    background-image: url("/Portfolio/image/myimage2.png");
+    background-size: 100vw;
+}
+
+.first .item-list{
+    text-align: right;
+    margin-right: 0.5vw;
+    padding-top: 1vw;
+}
+
+.first .item-list ul{
+    margin: 0;
+}
+
+.first .item-list li{
+    list-style: none;
+    display: inline;
+    margin-right:  2.5vw;
+}
+
+.first .item-list a{
+    color: #696969;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.first .item-list a:hover{
+    color: black;
+}
+
+.portfolio .first .content{
+    color: #fff;
+    padding-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 25vw;
+}
+
+.first .content .name-roma{
+    font-size: 8vw;
+}
+
+.first .content .name-roma .mei{
+    height: 10vw;
+}
+
+.first .content .name{
+    font-size: 3vw;
+    margin-top: 1.5vw;
+}
+
+.first .content .me{
+    margin-top: 1.5vw;
+    font-size: 3vw;
+}
+
+/*second*/
+.second{
+    background-color: #fff;
+    background-size: 100vw;
+}
+
+.second .content{
+    padding-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 25vw;
+}
+
+.second .content .about h2{
+    font-size: 2.5vw;
+}
+
+.second .content .about p{
+    font-size: 1.6vw;
+}
+
+.second .content .intro p{
+    font-size: 1.6vw;
+}
+
+.second .content .email{
+    font-size: 1.6vw;
+}
+
+.second .content a{
+    text-decoration: none;
+    color: #000;
+}
+
+.second .content a:hover{
+    color: #999;
+}
+
+.second .content .program{
+    position: absolute;
+    right: 5vw;
+    top: 85vw;
+}
+
+.second .content .program img{
+    width: 50vw;
+    height: 30vw;
+    object-fit: cover;
+    border: 0.2vw solid #999;
+}
+
+.second .content .github{
+    margin: 0.5vw;
+}
+
+.second .content .github img{
+    width: 5vw;
+    height: 5vw;
+}
+
+/*third*/
+.third{
+    background-color: #A7A9A6;
+    background: radial-gradient(#A7A9A6,#6D6F6C);
+}
+
+.third .content{
+    padding-left: 5vw;
+    padding-top: 5vw;
+}
+
+.third .content .Project{
+    color: #fff;
+}
+
+.third .content .Project h2{
+    font-size: 2.5vw;
+}
+
+.third .content .project-list h3{
+    font-size: 1.5vw;
+}
+
+.third .content .project-list p{
+    font-size: 1.3vw;
+}
+
+.third .content .project-list img{
+    width: 60vw;
+    object-fit: cover;
+}
+
+.third .content .project-list .project-footer{
+    margin-top: 5vw;
+    display: flex;
+    margin-bottom: 3vw;
+}
+
+.third .content .project-list .project-footer .copy{
+    margin-left: 10vw;
+}
+
+.third .content .project-list .project-footer .develop{
+    margin-left: 40vw;
+}
+
+.third .content .project-list .project-footer a{
+    font-size: 2vw;
+    text-decoration: none;
+    color: blue;
+}
+
+.third .content .project-list a:hover{
+    color: #6666FF;
+}
+
+/*fourth*/
+.fourth{
+    background-color: #fff;
+}
+
+.fourth .content{
+    padding-left: 5vw;
+    padding-top: 5vw;
+}
+
+.fourth .content .contact h2{
+    font-size: 2.5vw;
+}
+
+.fourth .content .tel{
+    font-size: 2.5vw;
+}
+
+.fourth .content .tel i{
+    margin-left: 2vw;
+}
+
+.fourth .content .tel a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1.5vw;
+}
+
+.fourth .content .tel a:hover{
+    color: #696969;
+}
+
+.fourth .content .email{
+    font-size: 2.5vw;
+    margin-top: 1vw;
+}
+
+.fourth .content .email i{
+    margin-left: 1.5vw;
+}
+
+.fourth .content .email a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1vw;
+}
+
+.fourth .content .email a:hover{
+    color: #696969;
+}
+
+
+
+/*Topへ*/
+.restart{
+    margin-right: 2vw;
+    padding-top: 2vw;
+}
+
+.restart a{
+    text-decoration: none;
+    font-size: 2.5vw;
+    float: right;
+    color: #696969;
+}
+
+.restart a:hover{
+    color: black;
+}
+
+
+
+
+/*copy.php*/
+.copy-list{
+    background-color: #CCCCCC;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid h3{
+    margin-left: 1vw;
+    margin-bottom: 0;
+}
+
+
+.grid img{
+    object-fit: cover;
+    width: 45vw;
+    height: 25vw;
+    margin: 1vw;
+}
+
+/*develop.php*/
+.develop-list{
+    background-color: #CCCCCC;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid h3{
+    margin-left: 1vw;
+    margin-bottom: 0;
+}
+
+
+.grid img{
+    object-fit: cover;
+    width: 45vw;
+    height: 25vw;
+    margin: 1vw;
+}
+
+/*copy.php develop.php共通*/
+.index{
+    float: right;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}
+
+.index a{
+    text-decoration: none;
+    color: black;
+}
+
+.index a:hover{
+    color: #999;
+}
+
+/*レスポンシブ*/
+@media screen and (max-width:480px) {
+    /*プログラミングイメージ画像*/
+    .second .content .program{
+        position: absolute;
+        top: 350px;
+    }
+}
