@@ -71,7 +71,7 @@ body{
 .second .content{
     padding-left: 5vw;
     padding-top: 5vw;
-    padding-bottom: 25vw;
+    padding-bottom: 8vw;
 }
 
 .second .content .about h2{
@@ -82,12 +82,24 @@ body{
     font-size: 1.6vw;
 }
 
+.second .content .intro h4{
+    margin: 0;
+    font-size: 1.5vw;
+}
+
 .second .content .intro p{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
+    padding: 0;
+    margin: 0;
+}
+
+.second .content .intro .myself{
+    width: 35vw;
 }
 
 .second .content .email{
     font-size: 1.6vw;
+    margin-top: 3vw;
 }
 
 .second .content a{
@@ -101,8 +113,8 @@ body{
 
 .second .content .program{
     position: absolute;
-    right: 5vw;
-    top: 85vw;
+    right: 4vw;
+    top: 75vw;
 }
 
 .second .content .program img{
@@ -155,7 +167,6 @@ body{
 
 .third .content .project-list .project-footer{
     margin-top: 5vw;
-    display: flex;
     margin-bottom: 3vw;
 }
 
@@ -170,7 +181,9 @@ body{
 .third .content .project-list .project-footer a{
     font-size: 2vw;
     text-decoration: none;
-    color: blue;
+    color: black;
+    padding: 1vw;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .third .content .project-list a:hover{
