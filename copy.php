@@ -20,15 +20,6 @@
             </div>
         </div>
 
-        <!--カフェ-->
-        <div class="WCB">
-            <h3>カフェのサイトです。</h3>
-            <!--本のリンクをはる画像も？-->
-            <div class="WCB-image">
-                <img src="/Portfolio/image/WCBcafe.png" alt="">
-            </div>
-        </div>
-
     </div>
     <!--indexへ-->
     <div class="index">
