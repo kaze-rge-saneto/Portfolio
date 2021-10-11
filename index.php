@@ -130,7 +130,7 @@
                     <!--TwitterClone-->
                     <div class="twitterclone">
                         <h3>Twitterクローン</h3>
-                        <p>Twitterの複製アプリです。ツリーとを投稿できます。PHP / MySQLを利用しています。</p>
+                        <p>Twitterの複製アプリです。ツイートを投稿できます。PHP / MySQLを利用しています。</p>
                         <div class="twitterclone-image">
                             <img src="/Portfolio/image/twitterclone.png" alt="twitterclone">
                         </div>
