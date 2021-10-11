@@ -7,7 +7,7 @@ body{
 
 /*first*/
 .first{
-    background-image: url("/Portfolio/image/myimage2.png");
+    background-image: url("/Portfolio/image/myimage2.jpg");
     background-size: 100vw;
 }
 
@@ -142,6 +142,7 @@ body{
 .third .content{
     padding-left: 5vw;
     padding-top: 5vw;
+    padding-bottom: 2vw;
 }
 
 .third .content .Project{
@@ -197,7 +198,7 @@ body{
 
 .fourth .content{
     padding-left: 5vw;
-    padding-top: 5vw;
+    padding-top: 3vw;
 }
 
 .fourth .content .contact h2{
@@ -254,6 +255,7 @@ body{
     font-size: 2.5vw;
     float: right;
     color: #696969;
+    padding-bottom: 2vw;
 }
 
 .restart a:hover{
@@ -326,10 +328,164 @@ body{
 }
 
 /*レスポンシブ*/
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
+    /*first*/
+    .portfolio .first .item-list a{
+        font-size: 3vw;
+        font-weight: bold;
+    }
+
+    .portfolio .first .content{
+        padding-bottom: 18vw;
+    }
+
+    .first .content .name-roma{
+        font-size: 12vw;
+    }
+
+    .first .content .name{
+        font-size: 4vw;
+    }
+
+    .first .content .me{
+        font-size: 4vw;
+    }
+
+    /*second*/
+    .second{
+        text-align: center;
+    }
+
+    .second .content{
+        padding: 5vw 10vw 8vw 10vw;
+    }
+
+    .second .content .about h2{
+        font-size: 6vw;
+    }
+
+    .second .content .about p{
+        font-size: 3.5vw;
+    }
+
+    .second .content .intro .myself {
+        width: 100%;
+    }
+
+    .second .content .intro h4 {
+        margin: 0;
+        font-size: 4vw;
+    }
+
+    .second .content .intro p{
+        font-size: 3.5vw;
+        text-align: justify;
+    }
+
+    .second .content .email{
+        font-size: 3vw;
+    }
+    
+    .second .content .github img {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    /*third*/
+    .third .content{
+        padding: 5vw 10vw 5vw 10vw;
+        text-align: center;
+    }
+
+    .third .content .Project h2{
+        color: #fff;
+        font-size: 6vw;
+    }
+
+    .third .content .project-list h3{
+        font-size: 5vw;
+    }
+
+    .third .content .project-list p {
+        font-size: 4vw;
+    }
+
+    .third .content .project-list img {
+        width: 80vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .third .content .project-list .project-footer .copy{
+        margin: 0;
+    }
+
+    .third .content .project-list .project-footer a {
+        font-size: 4vw;
+    }
+
+    .fourth .content{
+        padding: 5vw;
+        text-align: center;
+        border-bottom: 1px solid #A7A9A6;
+    }
+
+    .fourth .content a{
+        font-size: 4vw;
+    }
+
+    .fourth .content .tel i{
+        margin-left: 0;
+    }
+
+    .fourth .contact .email i{
+        margin-left: 0;
+    }
+
+    .fourth .content .contact h2{
+        font-size: 6vw;
+    }
     /*プログラミングイメージ画像*/
     .second .content .program{
-        position: absolute;
-        top: 350px;
+        display: none;
+    }
+
+    /*Topへ*/
+    .restart{
+        text-align: center;
+        margin-right: 0;
+        padding-bottom: 2vw;
+    }
+
+    .restart a {
+        text-decoration: none;
+        font-size: 4.5vw;
+        font-weight: bold;
+        color: #696969;
+        margin-bottom: 3vw;
+        text-align: center;
+        float: none;
+    }
+
+    /*copy.php*/
+    .grid {
+        display: block;
+        text-align: center;
+    }
+
+    .grid img {
+        object-fit: cover;
+        width: 70vw;
+        height: 40vw;
+        margin: 1vw;
+    }
+
+    .index{
+        font-size: 5vw;
+        border-top: 1px solid #A7A9A6;
+        padding-top: 2vw;
+        float: none;
+        text-align: center;
+        font-weight: bold;
     }
 }
