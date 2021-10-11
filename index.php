@@ -43,7 +43,7 @@
                     <ul>
                         <li><a href="#second">About</a></li>
                         <li><a href="#third">Project</a></li>
-                        <li><a href="#fourth">Contact</a></li>
+                        <li><a href="#fourth">Contacts</a></li>
                     </ul>
                 </div>
             <!--コンテンツ-->
@@ -94,7 +94,7 @@
                 <div class="intro">
                     <h4>自己紹介文</h4>
                     <div class="myself">
-                        <p>ホームページを制作したいという気持ちをきっかけに、初めはProgateで学習を始め、本格的にプログラミングを勉強したいと思いプログラミングスクールに通うことを決める。0からものを作れる人材として、企業のホームページを制作したり、Webアプリケーションを開発していきたいと考えています。</p>
+                        <p>ホームページを制作したいという気持ちをきっかけに、初めはProgateで学習を始め、本格的にプログラミングを勉強したいと思いプログラミングスクールに通うことを決めました。0からものを作れる人材になり、企業のホームページの制作、Webアプリケーションを開発していきたいと考えています。</p>
                     </div>
                     
                 </div>
@@ -113,9 +113,6 @@
                     <a href="https://github.com/kaze-rge-saneto"><img src="/Portfolio/image/githubicon.png" alt="github"></a>
                 </div>
             </div>
-
-            </div>
-
         </div>
 
         <!--3ページ目-->
@@ -135,7 +132,7 @@
                         <h3>Twitterクローン</h3>
                         <p>Twitterの複製アプリです。ツリーとを投稿できます。PHP / MySQLを利用しています。</p>
                         <div class="twitterclone-image">
-                            <img src="" alt="twitterclone">
+                            <img src="/Portfolio/image/twitterclone.png" alt="twitterclone">
                         </div>
                     </div>
 
@@ -165,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
         </div>
 
         <!--4ページ目-->
