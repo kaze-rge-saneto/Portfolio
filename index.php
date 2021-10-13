@@ -39,13 +39,13 @@
         <!--1ページ目-->
         <div class="first" id="first">
             <!--リスト-->
-                <div class="item-list">
+                <nav class="item-list">
                     <ul>
                         <li><a href="#second">About</a></li>
                         <li><a href="#third">Project</a></li>
                         <li><a href="#fourth">Contacts</a></li>
                     </ul>
-                </div>
+                </nav>
             <!--コンテンツ-->
             <div class="content">
 
