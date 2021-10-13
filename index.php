@@ -39,13 +39,13 @@
         <!--1ページ目-->
         <div class="first" id="first">
             <!--リスト-->
-                <div class="item-list">
+                <nav class="item-list">
                     <ul>
                         <li><a href="#second">About</a></li>
                         <li><a href="#third">Project</a></li>
                         <li><a href="#fourth">Contacts</a></li>
                     </ul>
-                </div>
+                </nav>
             <!--コンテンツ-->
             <div class="content">
 
@@ -141,7 +141,12 @@
                         <h3>Assemble</h3>
                         <p>音楽バンド向けマッチングアプリを開発中です。PHP / Laravel / phpmyadminを利用しています。</p>
                         <div class="Assemble-image">
-                            <img src="/Portfolio/image/Assemble.png" alt="Assemble">
+                            <a href="https://music-assemble.com"><img src="/Portfolio/image/Assemble.png" alt="Assemble"></a>
+                        </div>
+                        <div class="test">
+                            <h4>テストアカウント</h4>
+                            <p>Email:test@icloud.com(個人)<br>test-band@icloud.com(バンド)</p>
+                            <p>Pass:123456</p>
                         </div>
                     </div>
 

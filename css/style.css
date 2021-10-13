@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*body*/
 body{
     font-family: arial, sans-serif;
@@ -155,10 +156,22 @@ body{
 
 .third .content .project-list h3{
     font-size: 1.5vw;
+    margin-bottom: 0;
+    margin-top: 4vw;
+}
+
+.third .content .project-list h4{
+    margin: 0;
+}
+
+.third .content .project-list .Assemble .test p{
+    margin-top: 0.5vw;
+    margin-bottom: 0;
 }
 
 .third .content .project-list p{
     font-size: 1.3vw;
+    margin-top: 0.2vw;
 }
 
 .third .content .project-list img{
@@ -198,7 +211,7 @@ body{
 
 .fourth .content{
     padding-left: 5vw;
-    padding-top: 3vw;
+    padding-top: 2vw;
 }
 
 .fourth .content .contact h2{
